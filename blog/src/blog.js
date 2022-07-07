@@ -1,24 +1,14 @@
-import axios from 'axios';
 import * as React from 'react';
+import Bloglist from './blogList';
 
-class Blog extends React.Component {
-  constructor(props){
-    super(props);
-    this.state = {
-
-    }
-  }
-
-  componentDidMount(){ls
-    this.setState(
+const Blog = () => {
+  return (
+    <div>
+      <h1>hello</h1>
+      <Bloglist />
+    </div>
     
-    )
-  }
-  render() {
-    return(
-         
-    );
-  }
+  )
 }
 
 export default Blog;
