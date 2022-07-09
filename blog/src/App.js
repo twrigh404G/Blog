@@ -1,5 +1,6 @@
-import Blog from './blog'
+import ButtonAppBar from './navbar'; 
 import * as React from 'react';
+import Blog from './blog';
 
 class App extends React.Component {
   constructor(props){
@@ -8,10 +9,11 @@ class App extends React.Component {
 
     }
   }
+  
   render() {
     return(
     <div>
-      
+      <ButtonAppBar />
       <Blog />
     </div>      
     );

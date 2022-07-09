@@ -1,4 +1,6 @@
 import * as React from 'react';
+import axios from 'axios';
+
 
 class Bloglist extends React.Component {
     constructor(props){
@@ -8,8 +10,7 @@ class Bloglist extends React.Component {
         }
     }
 
-
-    render(){
+        render(){
         return(
             <div>hello</div>
         )
