@@ -1,11 +1,14 @@
 import * as React from 'react';
+import Grid from '@mui/material/Grid';
 
 
 const Footer = (props) => {
     return(
-        <div>
-            
-        </div>
+        <Grid container>
+            <Grid item>
+                
+            </Grid>
+        </Grid>
     )
 }
 

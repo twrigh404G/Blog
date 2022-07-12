@@ -1,5 +1,5 @@
-import ButtonAppBar from './navbar'; 
 import * as React from 'react';
+import ButtonAppBar from './navbar'; 
 import Blog from './blog';
 import Footer from './footer';
 
@@ -15,11 +15,12 @@ class App extends React.Component {
   
   render() {
     return(
-    <div>
-      <ButtonAppBar />
-      <Blog />
-      <Footer />
-    </div>      
+      <div>
+        <ButtonAppBar />
+        <Blog />
+        <Footer />
+      </div>
+          
     );
   }
 }
