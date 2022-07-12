@@ -5,8 +5,14 @@ import Grid from '@mui/material/Grid';
 const Footer = (props) => {
     return(
         <Grid container>
-            <Grid item>
-                
+            <Grid item xs={4}>
+                <div></div>
+            </Grid>
+            <Grid item xs={4}>
+                <div></div>
+            </Grid>
+            <Grid item xs={4}>
+                <div></div>
             </Grid>
         </Grid>
     )
