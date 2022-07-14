@@ -1,19 +1,27 @@
 import * as React from 'react';
 import Grid from '@mui/material/Grid';
-import css from '@emotion/react';
+
 
 
 
 const Footer = (props) => {
     return(
-        <Grid container>
-            <Grid item xs={12}>
+        <Grid container sx={{
+            width: "100%",
+            border: "1px solid black",
+            marginBottom: "auto"
+
+            }}>
+            <Grid item xs={8}>
                 <item>new div</item>
             </Grid>
-            <Grid item xs={12}>
+            <Grid item xs={4}>
                 <item>new div</item>
             </Grid>
-            <Grid item xs={12}>
+            <Grid item xs={8}>
+                <item>new div</item>
+            </Grid>
+            <Grid item xs={4}>
                 <item>new div</item>
             </Grid>
         </Grid>
