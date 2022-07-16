@@ -1,4 +1,6 @@
 import * as React from 'react';
+import Box from '@mui/material/Box';
+import Container from '@mui/material/Container'
 import axios from 'axios';
 
 
@@ -18,7 +20,9 @@ class Bloglist extends React.Component {
     
         render(){
         return(
-            <div>hello</div>
+            <Box>
+
+            </Box>
         )
     }
 }

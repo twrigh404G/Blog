@@ -1,31 +1,40 @@
 import * as React from 'react';
 import Grid from '@mui/material/Grid';
+import Container from '@mui/material/Container';
+import Box from '@mui/material/Box';
+//import Typography from '@mui/materila/typogr'
 
 
 
-
-const Footer = (props) => {
+const Footer = (theme) => {
     return(
-        <Grid container sx={{
-            width: "100%",
-            border: "1px solid black",
-            marginBottom: "auto"
+        <Box>
+         <Container>
+            <Grid container >
+                <Grid item>
+                    <Box>
 
-            }}>
-            <Grid item xs={8}>
-                <item>new div</item>
+                        <h1>text</h1>
+                    </Box>
+                </Grid>
+                <Grid item>
+                    <Box>
+                    <h1>text</h1>
+                    </Box>
+                </Grid>
+                <Grid item>
+                    <Box>
+                    <h1>text</h1>
+                    </Box>
+                </Grid>
+                <Grid item >
+                    <Box>
+                    <h1>text</h1>
+                    </Box>
+                </Grid>
             </Grid>
-            <Grid item xs={4}>
-                <item>new div</item>
-            </Grid>
-            <Grid item xs={8}>
-                <item>new div</item>
-            </Grid>
-            <Grid item xs={4}>
-                <item>new div</item>
-            </Grid>
-        </Grid>
+         </Container>
+        </Box>
     )
 }
-
 export default Footer;

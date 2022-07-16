@@ -1,10 +1,11 @@
 import * as React from 'react';
 import Bloglist from './blogList';
+import Box from '@mui/material/Box';
+
 
 const Blog = () => {
   return (
     <div>
-      <h1>hello</h1>
       <Bloglist />
     </div>
     
