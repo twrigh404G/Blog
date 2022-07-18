@@ -8,28 +8,28 @@ import Box from '@mui/material/Box';
 
 const Footer = (theme) => {
     return(
-        <Box>
+        <Box sx={{width: 1, border: 1}}>
          <Container>
             <Grid container >
                 <Grid item>
                     <Box>
 
-                        <h1>text</h1>
+                        text
                     </Box>
                 </Grid>
                 <Grid item>
                     <Box>
-                    <h1>text</h1>
+                        text
                     </Box>
                 </Grid>
                 <Grid item>
                     <Box>
-                    <h1>text</h1>
+                        text
                     </Box>
                 </Grid>
                 <Grid item >
                     <Box>
-                    <h1>text</h1>
+                        text
                     </Box>
                 </Grid>
             </Grid>
