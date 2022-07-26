@@ -11,7 +11,7 @@ import Link from 'react-router';
 
 export default function ButtonAppBar() {
 
-  
+
   return (
     <Box sx={{ flexGrow: 1, bgcolor: 'primary.main'}}>
       <AppBar position="static">
@@ -28,7 +28,7 @@ export default function ButtonAppBar() {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             The Blog
           </Typography>
-          <Button color="inherit">Login</Button>
+          <Button  color="inherit">Login</Button>
         </Toolbar>
       </AppBar>
     </Box>

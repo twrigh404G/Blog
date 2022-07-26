@@ -3,29 +3,13 @@ import ButtonAppBar from './navbar';
 import Threehero from './Threehero'
 import Blog from './blog';
 import Footer from './footer';
+import { Route, Switch } from "react-router-dom";
 
-
-class App extends React.Component {
-  constructor(props){
-    super(props);
-    this.state = {
-      
-    }
-  }
-
-  
-  render() {
-    return(
-      <div>
-        
-        <ButtonAppBar />
-        <Threehero />
-        <Blog />
-        <Footer />
-      </div>
-          
-    );
-  }
+export default App(){
+  return(
+    <>
+      <ButtonAppBar />s
+      <Footer />
+    </>
+  )
 }
-
-export default App;
