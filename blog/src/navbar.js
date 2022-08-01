@@ -10,7 +10,6 @@ import LoginButton from './components/loginbutton';
 
 export default function ButtonAppBar() {
 
-
   return (
     <Box sx={{ flexGrow: 1, bgcolor: 'primary.main'}}>
       <AppBar position="static">
