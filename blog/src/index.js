@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowerRouter as Router } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import Auth0ProviderWithHistory from './auth/auth0-provider-with-history';
 import ReactDOM from 'react-dom/client';
 import App from './App';
@@ -22,13 +22,13 @@ const theme = createTheme({
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Router>
+    <BrowserRouter>
       <Auth0ProviderWithHistory>
         <ThemeProvider theme={theme}>
           <App />
         </ThemeProvider>
       </Auth0ProviderWithHistory>
-    </Router>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

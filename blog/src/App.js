@@ -5,11 +5,11 @@ import Blog from './blog';
 import Footer from './footer';
 import { Route, Switch } from "react-router-dom";
 
-export default App(){
+export default function App(){
+  
   return(
     <>
-      <ButtonAppBar />s
+      <ButtonAppBar />
       <Footer />
-    </>
-  )
+    </>)
 }
