@@ -5,7 +5,8 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
-import LoginButton from './components/loginbutton';
+import ToggleLoginButton from './components/loginbutton';
+import Button from "@mui/material/Button";
 
 
 export default function ButtonAppBar() {
@@ -26,7 +27,8 @@ export default function ButtonAppBar() {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             The Blog
           </Typography>
-          <LoginButton />
+          <Button color="inherit">Menu</Button>
+          <ToggleLoginButton />
         </Toolbar>
       </AppBar>
     </Box>
