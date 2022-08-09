@@ -22,12 +22,13 @@ export default function ButtonAppBar() {
             aria-label="menu"
             sx={{ mr: 2 }}
           >
-            <MenuIcon />
+            
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             The Blog
           </Typography>
-          <Button color="inherit">Menu</Button>
+          <Button color="inherit" sx={{mr: 1}}>sign-up</Button>
+
           <ToggleLoginButton />
         </Toolbar>
       </AppBar>
