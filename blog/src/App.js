@@ -9,7 +9,8 @@ export default function App(){
   
   return(
     <>
+      
       <ButtonAppBar />
-      <Footer />
+      <Blog />
     </>)
 }

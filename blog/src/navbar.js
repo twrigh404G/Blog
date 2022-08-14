@@ -28,7 +28,6 @@ export default function ButtonAppBar() {
             The Blog
           </Typography>
           <Button color="inherit" sx={{mr: 1}}>sign-up</Button>
-
           <ToggleLoginButton />
         </Toolbar>
       </AppBar>
