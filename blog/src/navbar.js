@@ -7,6 +7,7 @@ import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import ToggleLoginButton from './components/loginbutton';
 import Button from "@mui/material/Button";
+import { Route, Switch } from "react-router-dom";
 
 
 export default function ButtonAppBar() {
@@ -25,7 +26,7 @@ export default function ButtonAppBar() {
             
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            The Blog
+            Tech Voltron
           </Typography>
           <Button color="inherit" sx={{mr: 1}}>sign-up</Button>
           <ToggleLoginButton />

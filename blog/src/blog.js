@@ -6,6 +6,7 @@ import Grid from '@mui/material/Grid';
 import ImageList from '@mui/material/ImageList';
 
 const Blog = () => {
+  
   return (
     <div>
       <Grid container>
