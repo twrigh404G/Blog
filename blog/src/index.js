@@ -24,7 +24,6 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Auth0ProviderWithHistory>
-      redirectUri={window.location.origin}>
         <ThemeProvider theme={theme}>
           <App />
         </ThemeProvider>

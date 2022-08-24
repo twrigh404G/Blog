@@ -1,6 +1,7 @@
 import * as React from 'react';
 import ButtonAppBar from './navbar'; 
 import Blog from './blog';
+import Hero from './hero';
 
 export default function App(){
   
@@ -8,6 +9,7 @@ export default function App(){
     <>
 
       <ButtonAppBar />
+      <Hero />
       <Blog />
       
     </>)
