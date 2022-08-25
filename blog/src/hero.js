@@ -1,11 +1,12 @@
 import { Container } from '@mui/material';
-import 
+
 
 export default function Hero () {
 const herostyles = {
   border: "1px solid black",
   height: "400px",
-  width: "100%",
+  padding: "0px",
+
 
 }
   return(
