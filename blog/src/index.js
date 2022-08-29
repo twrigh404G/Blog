@@ -25,7 +25,7 @@ root.render(
     <BrowserRouter>
       <Auth0ProviderWithHistory>
         <ThemeProvider theme={theme}>
-          <App />
+            <App />
         </ThemeProvider>
       </Auth0ProviderWithHistory>
     </BrowserRouter>
