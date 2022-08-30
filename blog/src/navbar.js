@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import ToggleLoginButton from './components/loginbutton';
-import Button from "@mui/material/Button";
+import SignUp from './components/signup';
 import { Link } from 'react-router-dom';
 
 
@@ -29,7 +29,7 @@ export default function ButtonAppBar() {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Tech Voltron
           </Typography>
-          <Button color="inherit" sx={{mr: 1}}>sign-up</Button>
+          <SignUp />
           <ToggleLoginButton />
         </Toolbar>
       </AppBar>
