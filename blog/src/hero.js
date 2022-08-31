@@ -10,7 +10,7 @@ const herostyles = {
 
 }
   return(
-    <Container sx={herostyles}>
+    <Container sx={herostyles} maxWidth={false}>
       <div>
         <span>test</span>
       </div>
